@@ -1,0 +1,227 @@
+/*!
+Theme Name: skyhigh
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: skyhigh
+Tags:
+*/
+
+//variables
+$black:#111;
+$blue:#3469A5;
+$purple:#d470fd;
+
+$body-text:$black;
+$bg-color:$black;
+$link-color:$blue;
+$link-hover-color:$purple;
+
+$link-color-secondary:$purple;
+
+$font-sans: helvetica, arial, sans-serif;
+
+//resets
+* {
+box-sizing:border-box;
+}
+
+body {
+margin:0;
+padding:0;
+background-color:$bg-color;
+font: normal 1rem/1.6rem $font-sans;
+color:$body-text;
+//background-image:linear-gradient( $bg-color, lighten($bg-color, 10%));
+}
+
+img {
+max-width:100%;
+max-height:100%;
+}
+
+a {
+color:$link-color;
+text-decoration:none;
+transition: color 0.5s ease 0s;
+	
+	&:hover {
+	color:lighten($link-color, 20%);
+	//text-decoration:underline;
+	}
+}
+
+//buttons
+.btn {
+display:block;
+width:100%;
+margin:0 auto;
+padding:1% 0;
+border-radius:3px;
+font-weight:bold;
+text-align:center;
+text-transform:uppercase;
+align-self:center;
+align-content:flex-end;
+flex-grow:1;
+
+	&-blue {
+	background-color:$blue;
+	color:#FFF;
+		
+		&:hover {
+		background-color:darken($blue, 10%);
+		color:#FFF;
+		}
+	
+	}
+	
+	
+}
+
+//structure
+.container {
+width:100%;
+max-width:1024px;
+margin:0 auto;
+}
+
+.row {
+display:flex;
+flex-flow: row wrap;
+}
+
+.col {
+//background-color:#ddd;
+display:block;
+//flex:1;
+width:30%;
+
+//border:1px solid #ddd;
+//margin:-1px 0 0 -1px;
+margin:0 1.5%;
+
+	&-single {
+	width:79%;
+	margin:0 0.5%;
+	flex-grow:1;
+	}
+	
+	@media screen and (max-width: 600px) {
+	width:100%;
+	margin:0 auto;
+	}	
+	
+}
+
+.main {
+background-color:#fff;
+padding:20px;
+}
+
+//header
+.site-title {
+text-align:center;
+}
+
+//main nav
+.nav {
+	
+	&-main {
+	background-color:lighten($black, 30%);
+	text-transform:uppercase;	
+	margin:0;
+	padding:0;
+	
+		ul {
+		list-style-type:none;
+		margin:0;
+		padding:0;		
+		
+			li {
+			display:inline-block;
+			}
+		}
+		
+		a {
+		display:block;
+		color:#fff;
+		padding:5px 10px;
+		
+			&:hover {
+			text-decoration:none;
+			background-color:#fff;
+			color:$link-hover-color;
+			}
+		}
+		
+		.current_menu_item,
+		.current_page_item {
+		background-color:#fff;
+			a {
+			color:$link-color-secondary;
+			}
+		}
+	}
+
+}
+
+//content 
+.entry {
+	
+	&-header {
+	text-transform:capitalize;
+	}
+	
+	&-title {
+	font-size:1.2rem;
+	text-align:center;
+	
+	}
+	
+	
+
+}
+
+.product {
+
+	&-image {
+	border:1px solid #eaeaea;
+	}
+
+	&-price {
+	font-size:1.6rem;
+	font-weight:bold;
+	color:$purple;
+	align-self:center;
+	}
+	
+	&-link {
+	
+	}
+
+}
+
+.page-title {
+
+	&-archive {
+	font-size:1.2rem;
+	}
+}
+
+//sidebar {
+.sidebar {
+display:inline-block;
+width:20%;
+}
+
+//pagination
+.paginate {
+text-align:center;
+width:100%;
+margin:0 auto;
+}

@@ -1,0 +1,13 @@
+/*!
+Theme Name: skyhigh
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: skyhigh
+Tags:
+*/*{box-sizing:border-box}body{margin:0;padding:0;background-color:#111;font:normal 1rem/1.6rem helvetica,arial,sans-serif;color:#111}img{max-width:100%;max-height:100%}a{color:#3469A5;text-decoration:none;transition:color 0.5s ease 0s}a:hover{color:#6e9cd1}.btn{display:block;width:100%;margin:0 auto;padding:1% 0;border-radius:3px;font-weight:bold;text-align:center;text-transform:uppercase;align-self:center;align-content:flex-end;flex-grow:1}.btn-blue{background-color:#3469A5;color:#FFF}.btn-blue:hover{background-color:#28507e;color:#FFF}.container{width:100%;max-width:1024px;margin:0 auto}.row{display:flex;flex-flow:row wrap}.col{display:block;width:30%;margin:0 1.5%}.col-single{width:79%;margin:0 0.5%;flex-grow:1}@media screen and (max-width: 600px){.col{width:100%;margin:0 auto}}.main{background-color:#fff;padding:20px}.site-title{text-align:center}.nav-main{background-color:#5e5e5e;text-transform:uppercase;margin:0;padding:0}.nav-main ul{list-style-type:none;margin:0;padding:0}.nav-main ul li{display:inline-block}.nav-main a{display:block;color:#fff;padding:5px 10px}.nav-main a:hover{text-decoration:none;background-color:#fff;color:#d470fd}.nav-main .current_menu_item,.nav-main .current_page_item{background-color:#fff}.nav-main .current_menu_item a,.nav-main .current_page_item a{color:#d470fd}.entry-header{text-transform:capitalize}.entry-title{font-size:1.2rem;text-align:center}.product-image{border:1px solid #eaeaea}.product-price{font-size:1.6rem;font-weight:bold;color:#d470fd;align-self:center}.page-title-archive{font-size:1.2rem}.sidebar{display:inline-block;width:20%}.paginate{text-align:center;width:100%;margin:0 auto}
+/*# sourceMappingURL=style.css.map */
